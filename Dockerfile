@@ -2,7 +2,7 @@
 # VERSION 1.0
 
 # the base image is a trusted ubuntu build with java 7 (https://index.docker.io/u/dockerfile/java/)
-FROM dockerfile/java
+FROM java:7
 
 # that's me!
 MAINTAINER Adam Warski, adam@warski.org
